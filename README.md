@@ -1,1 +1,99 @@
 # portfolio-project-Aj
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>AJ Portfolio</h1>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div>
+                <h2>Welcome to My Portfolio</h2>
+                <p>I am a creative ICT student passionate about web development and technology.</p>
+                <button id="themeBtn">Change Theme</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is AJ. I enjoy creating websites using HTML, CSS, and JavaScript.
+                I love learning new technology skills and improving my creativity.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="card">
+            <h2>My Skills</h2>
+            <div id="skillsContainer" class="grid"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+            <div class="grid">
+
+                <article class="project-box">
+                    <h3>Gaming Store Website</h3>
+                    <p>A responsive gaming shop website with product cards.</p>
+                </article>
+
+                <article class="project-box">
+                    <h3>Student Dashboard</h3>
+                    <p>A school dashboard project for organizing tasks and schedules.</p>
+                </article>
+
+                <article class="project-box">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio showing skills and achievements.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <p>Email: ajportfolio@email.com</p>
+            <p>Facebook: AJ Creative</p>
+        </section>
+
+    </main>
+
+    <!-- Aside -->
+    <aside>
+        <h3>Quick Info</h3>
+        <p>ICT Student</p>
+        <p>Web Designer</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 AJ Creative Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>pp
